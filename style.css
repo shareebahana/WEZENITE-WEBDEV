@@ -1,0 +1,53 @@
+
+h1{
+    background: yellow;
+}
+.red{
+    background-color: red;
+    display: block;
+}
+.blue{
+    background-color: rgb(151, 187, 228);
+    
+}
+#hel{
+    font-size: 30px;
+}
+body{
+    background: pink;
+}
+.first{
+    flex-shrink: 1;
+    flex-wrap: wrap;
+}
+.second{
+    flex-shrink: 2;
+}
+.newly{
+    display: flex;
+}
+.newly div{
+    background: red;
+    width: 200px;
+    border: 2px solid black;
+    margin: 10px;
+    height: 200px;
+}
+*{
+    margin: 0;
+}
+#parent{
+    display: flex;
+    background: red;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 50vh;
+    flex-direction: column;
+}
+.child{
+    background: yellow;
+    width: 200px;
+    height: 200px;
+    margin: 5px;
+}
